@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
 
 const Map = ({ route ,  navigation  }) => {
   const { userId, dlat, dlong } = route.params;
-  const GOOGLE_MAPS_API_KEY="AIzaSyC6iYYgaEJuL9nEwOxjeWH3BZiMugd2r0w"
+  const GOOGLE_MAPS_API_KEY="Your_API_Key"
   
   const [origin,setOrigin] = useState({
     latitude: 37.4219983,
