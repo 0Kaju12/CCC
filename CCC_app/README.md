@@ -4,7 +4,30 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## Step 1: Run CCC_backend on any system
+
+## Step 2: Replace Keys and ips:
+
+Add your google maps API key:
+
+line 45 : CCC_app/src/screens/googlemaps/map.jsx
+![image](https://github.com/Blackfyre1/CCC/assets/31318864/0769d837-81d7-4466-b778-87deafa4b7e3)
+
+Replace CCC_backend Server ip:
+
+line 19 : CCC_app/src/screens/googlemaps/Register.jsx
+![image](https://github.com/Blackfyre1/CCC/assets/31318864/ecb500db-d9d3-4eb4-8e27-8af71ac59c84)
+
+line 139 and 173: CCC_app/src/screens/googlemaps/index.jsx
+![image](https://github.com/Blackfyre1/CCC/assets/31318864/88a0741c-ecce-4314-823f-ae67e711d116)
+![image](https://github.com/Blackfyre1/CCC/assets/31318864/d0cb44c9-7e1d-4e3b-bfd5-87ac8ab77f40)
+
+line 13 : CCC_app/src/screens/googlemaps/login.jsx
+![image](https://github.com/Blackfyre1/CCC/assets/31318864/02a4ec43-acf9-4535-8a5d-a2a88d3df5df)
+
+>**Note**: It is recommended to run the CCC_backend server on a separate device if using the app on an actual phone instead of an emulator.
+
+## Step 3: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
@@ -18,7 +41,7 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
+## Step 4: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
@@ -46,11 +69,11 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
+## Step 5: Modifying your App
 
 Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
+1. Open `App.jsx` in your text editor of choice and edit some lines.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
