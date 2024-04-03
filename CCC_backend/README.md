@@ -8,7 +8,5 @@ line 17 : app.js
 **Step 2: Start the Server**
 
 using npm
-npm start
 
-OR using Yarn
-yarn start
+npm start
