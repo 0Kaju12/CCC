@@ -96,7 +96,7 @@ const fetchDataFromAPI = async () => {
 function App() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyC6iYYgaEJuL9nEwOxjeWH3BZiMugd2r0w" // Replace with your Google Maps API key
+    googleMapsApiKey: "Your_API_Key" // Replace with your Google Maps API key
   });
 
   const [markers, setMarkers] = useState([]);
